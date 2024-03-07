@@ -30,9 +30,10 @@ def main():
 
     # Call the create_cd_account function and pass the variables from the user.
     updated_cd_balance, interest_earned = create_cd_account(cd_balance, cd_interest, cd_months)
+    
+    # Print out the interest earned and updated CD account balance with interest earned for the given months.
     print(f"CD Account: Interest Earned: {interest_earned:.2f}, Updated Balance: {updated_cd_balance:.2f}")
 
-    # Print out the interest earned and updated CD account balance with interest earned for the given months.
     # ADD YOUR CODE HERE
     updated_balance, interest_earned = create_cd_account(cd_balance, cd_interest, cd_months)
 if __name__ == "__main__":
